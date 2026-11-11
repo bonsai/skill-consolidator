@@ -1,0 +1,211 @@
+{
+  "skills": {
+    "lms-model-advisor": {
+      "description": "LMStudio で動くローカルモデルの選択・設定・用途をアドバイスする。現在ロードされているモデルの確認、用途別の最適モデル推薦、temperature/context_length などパラメータ調整ガイダンス。「lmsアドバイザー」「モデル選択」「どのモデルがいい」「model advisor」「temperature設定」で発動。Python + LMStudio REST API (localhost:1234/v1)。対応用途: coding/creative/chat/analysis/rag/embedding。",
+      "has_SKILL_md": true,
+      "path": "dev/lms-model-advisor",
+      "created": "2026-09-30",
+      "sid": "s047"
+    },
+    "bqmlite": {
+      "description": "ローカルの SQLite/CSV を BQMLite (bonsai/bqmlite-go) で学習・予測する。BigQuery も MLフレームワークも使わず、決定的(deterministic)に mean / linear_regre",
+      "has_SKILL_md": true
+    },
+    "char-distribution": {
+      "description": "文章中の文字種・言語の割合（英語/日本語/中文/emoji/その他）を簡易計測する。文字分散、言語比率、文字種の割合、英語と日本語のミックス確認、「何%英語か」「言語の割合を測って」「lang ratio」「character distri",
+      "has_SKILL_md": true
+    },
+    "footer": {
+      "description": ">",
+      "has_SKILL_md": true
+    },
+    "genkou": {
+      "description": "複数のエージェントが90秒ずつ原稿を書く。寺山修司・村上春樹・平賀源内・志賀直哉・宮沢賢治・ザッパ・ドラッカー・bonsなど、9つの声で同じテーマ（MediaPipe×3DGS×Jev）を語る。「原稿書いて」「90秒」「genkou」「90",
+      "has_SKILL_md": true
+    },
+    "mimic-me": {
+      "description": "ユーザー(bons)の口癖・文体を集計して再現する。ユーザーに代わって短い返信・コミットメッセージ・Issue本文・チャット文案・日記を書くとき、「口癖」「真似して」「わたしっぽく」「俺の文体で」「bonsの声で」「mimic-me」などで",
+      "has_SKILL_md": true
+    },
+    "pain-sense": {
+      "description": ">",
+      "has_SKILL_md": true
+    },
+    "pi-config-memo": {
+      "description": "Pi (pi-coding-agent, the terminal AI coding agent) の設定・構成ファイルの場所と編集方法を覚えておくためのメモ。Pi のデフォルトモデル・プロバイダ・設定を変更したいとき、または「Pi の設",
+      "has_SKILL_md": true
+    },
+    "recap": {
+      "description": ">",
+      "has_SKILL_md": true
+    },
+    "win-tips": {
+      "description": "Windows 11 の小技・自動化スクリプト集。実体は C:\\Users\\0501JP\\win-tips。「win-tips」「Windowsの小技」「Windows tips」「小技」「Copilot 無効」「disable copil",
+      "has_SKILL_md": true
+    },
+    "writing": {
+      "description": "W（Writing / 文章のための層）。文章を書く・整える・売れる形にするための実践スキル。ブログ記事、技術書、企画書、解説、note/Zenn、原稿の執筆・推敲・構成に使う。起動ワード「writing」「文章のための」「文章を書いて」「",
+      "has_SKILL_md": true
+    },
+    "wx": {
+      "description": "WX（Work X / Agent Experience）。リポジトリ bonsai/WX の定義に沿って、Agent Experience を実際の Work として回す。基本ループは MX（見つける）→ RX（深掘る）→ AX（任せる）",
+      "has_SKILL_md": true
+    },
+    "paper-reader": {
+      "description": "arXiv URL またはローカル PDF/Markdown から論文を読み、指定文字数の日本語要約を返す。「論文読んで」「要約して」「300字要約」「arXiv要約」「paper summary」で発動。Python + requests。外部LLMは不要。",
+      "has_SKILL_md": true,
+      "path": "paper-reader",
+      "created": "2026-10-02",
+      "sid": "s048"
+    },
+    "vlm-screenshot-debug": {
+      "description": "ローカル HTML/SVG を HTTP 経由で開き、headless Chrome でスクリーンショットを撮影。LMS (LM Studio) のローカル VLM で画像を解析し、崩れや問題点を指摘する。「スクショ取って」「VLMで確認」「崩れてる」「画像解析して」で発動。",
+      "has_SKILL_md": true,
+      "path": "vlm-screenshot-debug",
+      "created": "2026-10-02",
+      "sid": "s049"
+    },
+    "comfy-client": {
+      "description": "Windows 側で起動した ComfyUI の API にワークフローを送信し、画像を生成・ダウンロードする。「ComfyUI で生成」「画像生成して」「woman」「生成して」で発動。WSL/Windows 両対応。",
+      "has_SKILL_md": true,
+      "path": "comfy-client",
+      "created": "2026-10-02",
+      "sid": "s050"
+    }
+  },
+  "genres": {
+    "aw": {
+      "subdirs": [
+        "BX",
+        "EX",
+        "IX",
+        "LX",
+        "OX",
+        "PX",
+        "SX",
+        "TX",
+        "UX",
+        "ax",
+        "mx",
+        "xX"
+      ],
+      "count": 12
+    },
+    "dev-tools": {
+      "subdirs": [
+        "skill-consolidator",
+        "skill-crawler"
+      ],
+      "count": 2
+    },
+    "ds": {
+      "subdirs": [
+        "ds-insighter",
+        "ds-view",
+        "kenja"
+      ],
+      "count": 3
+    },
+    "learning": {
+      "subdirs": [
+        "char-distribution",
+        "tips-word",
+        "vocab-highlight"
+      ],
+      "count": 3
+    },
+    "tools": {
+      "subdirs": [
+        "ext-install-skill",
+        "grill-me",
+        "supervised-delegation",
+        "sync-db",
+        "tsumete"
+      ],
+      "count": 5
+    },
+    "uipath": {
+      "subdirs": [
+        "uipath-admin",
+        "uipath-agents",
+        "uipath-api-workflow",
+        "uipath-automation-discovery",
+        "uipath-automationhub",
+        "uipath-coded-apps",
+        "uipath-connector-builder",
+        "uipath-feedback",
+        "uipath-functions",
+        "uipath-governance",
+        "uipath-human-in-the-loop",
+        "uipath-insights",
+        "uipath-ixp",
+        "uipath-maestro-bpmn",
+        "uipath-maestro-case",
+        "uipath-maestro-flow",
+        "uipath-mcp-servers",
+        "uipath-planner",
+        "uipath-platform",
+        "uipath-process-mining",
+        "uipath-review",
+        "uipath-rpa",
+        "uipath-skill-catalog",
+        "uipath-solution",
+        "uipath-tasks",
+        "uipath-test",
+        "uipath-troubleshoot"
+      ],
+      "count": 27
+    },
+    "workspace": {
+      "subdirs": [
+        "agent",
+        "data-research",
+        "text-generation",
+        "tool"
+      ],
+      "count": 4
+    }
+  },
+  "deploy": {
+    "SHITAGAKI": {
+      "has_SKILL_md": false,
+      "has_README_md": true
+    },
+    "emoji-shiritori": {
+      "has_SKILL_md": false,
+      "has_README_md": true
+    },
+    "idol-lab": {
+      "has_SKILL_md": false,
+      "has_README_md": true
+    },
+    "idol-playlist": {
+      "has_SKILL_md": false,
+      "has_README_md": false
+    },
+    "makaizou-init": {
+      "has_SKILL_md": false,
+      "has_README_md": false
+    },
+    "owarai-live": {
+      "has_SKILL_md": false,
+      "has_README_md": true
+    },
+    "progressive-life-os": {
+      "has_SKILL_md": false,
+      "has_README_md": false
+    },
+    "progressive-life-v2": {
+      "has_SKILL_md": false,
+      "has_README_md": false
+    },
+    "showa-covers": {
+      "has_SKILL_md": false,
+      "has_README_md": false
+    },
+    "yose-db": {
+      "has_SKILL_md": false,
+      "has_README_md": true
+    }
+  }
+}

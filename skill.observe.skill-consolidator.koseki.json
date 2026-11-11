@@ -1,0 +1,21 @@
+{
+  "id": "skill.observe.skill-consolidator",
+  "name": "skill-consolidator",
+  "type": "skill",
+  "category": "observe",
+  "repo_url": null,
+  "status": "active",
+  "description": "---",
+  "tags": [],
+  "dependencies": [],
+  "author": "bons",
+  "born_at": "2026-09-25T06:03:28.960130+00:00",
+  "work_types": [
+    "pi-skill"
+  ],
+  "salary": 100,
+  "attention": 100,
+  "path": ".skills/observe/skill-consolidator",
+  "moved_from": [],
+  "root_base": "~/.soubi"
+}
